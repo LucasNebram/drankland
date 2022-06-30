@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/LucasNebram/drankland.git/static/css/main.f2ae35ea.css",
+    "main.js": "/LucasNebram/drankland.git/static/js/main.588a4076.js",
+    "static/media/slick.svg": "/LucasNebram/drankland.git/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/LucasNebram/drankland.git/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/LucasNebram/drankland.git/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/LucasNebram/drankland.git/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/LucasNebram/drankland.git/index.html",
+    "main.f2ae35ea.css.map": "/LucasNebram/drankland.git/static/css/main.f2ae35ea.css.map",
+    "main.588a4076.js.map": "/LucasNebram/drankland.git/static/js/main.588a4076.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2ae35ea.css",
+    "static/js/main.588a4076.js"
+  ]
+}
