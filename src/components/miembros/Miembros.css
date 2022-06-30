@@ -1,0 +1,261 @@
+.miembros {
+  padding: 0.5rem 6rem;
+  width: 100%;
+  background-color: #f8ca6c;
+}
+
+.miembros > h2 {
+  text-align: center;
+}
+
+.container {
+  height: fit-content;
+}
+
+.grid__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  justify-items: center;
+  grid-template-areas:
+    "Miembro-1 Miembro-2"
+    "Competencia-1 Competencia-2"
+    "Miembro-3 Miembro-4"
+    "Competencia-3 Competencia-4";
+}
+
+.miembro {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 1px 3px 2px 1px rgba(255, 255, 255, 1);
+}
+
+.miembro:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/* ANTIGUO CIRCULO */
+
+.medio_circulo {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background-color: #888;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  margin: -125px 0px 0px -125px;
+  border: 1px solid #999;
+}
+
+.interno_circulo {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #555;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0px 0px -100px;
+  border: 1px solid #999;
+}
+
+.miembro_head > img {
+  width: 50%;
+  display: flex;
+  margin: 2rem auto;
+  border-radius: 50%;
+}
+
+.habilidades {
+  width: 150px;
+  height: 55px;
+  position: relative;
+  background-color: #888;
+  padding-top: 2rem;
+
+  /* border-start-start-radius: 5rem;
+    border-start-end-radius: 5rem; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 70px;
+  left: 13%;
+}
+
+.habilidades h2 {
+  position: relative;
+  bottom: 120%;
+}
+
+/* MIEMBRO UNO */
+
+.miembro_head > .miembro_img {
+  transform: scale(1.7);
+  cursor: pointer;
+}
+
+.miembro_uno,
+.foto1 {
+  /* background-color: #5cbebf; */
+  grid-area: Miembro-1;
+}
+
+.miembro_uno > .medio_circulo {
+  background-color: #f2d089;
+}
+
+.miembro_uno > .medio_circulo > .interno_circulo {
+  background-color: #5cbebf;
+}
+
+.miembro_uno > .medio_circulo > .interno_circulo > .habilidades {
+  background-color: #f2d089;
+}
+
+/* MIEMBRO DOS */
+
+.miembro_dos,
+.foto2 {
+  /* background-color: #6f0009; */
+  grid-area: Miembro-2;
+}
+
+.miembro_dos > .medio_circulo {
+  background-color: #efb810;
+}
+
+.miembro_dos > .medio_circulo > .interno_circulo {
+  background-color: #6f0009;
+}
+
+.miembro_dos > .medio_circulo > .interno_circulo > .habilidades {
+  background-color: #efb810;
+}
+
+/* MIEMBRO TRES */
+
+.miembro_tres,
+.foto3 {
+  /* background-color: #a7a7a7; */
+  grid-area: Miembro-3;
+}
+
+.miembro_tres > .medio_circulo {
+  background-color: #cf8411;
+}
+
+.miembro_tres > .medio_circulo > .interno_circulo {
+  background-color: #a7a7a7;
+}
+
+.miembro_tres > .medio_circulo > .interno_circulo > .habilidades {
+  background-color: #cf8411;
+}
+/* MIEMBRO CUATRO */
+
+.miembro_cuatro,
+.foto4 {
+  /* background-color: #a7a7a7; */
+  grid-area: Miembro-4;
+}
+
+.miembro_cuatro > .medio_circulo {
+  background-color: #cf8411;
+}
+
+.miembro_cuatro > .medio_circulo > .interno_circulo {
+  background-color: #a7a7a7;
+}
+
+.miembro_cuatro > .medio_circulo > .interno_circulo > .habilidades {
+  background-color: #cf8411;
+}
+
+/* FIN ANTIGUO CIRCULO */
+
+/* COMPETENCIAS */
+
+.competencia {
+  color: black;
+  background: #efefef;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  border-radius: 3px;
+  padding: 1.6rem;
+  font-size: 1.3rem;
+  border: 1px solid black;
+}
+
+.competencia_uno {
+  grid-area: Competencia-1;
+}
+.competencia_dos {
+  grid-area: Competencia-2;
+}
+.competencia_tres {
+  grid-area: Competencia-3;
+}
+.competencia_cuatro {
+  grid-area: Competencia-4;
+}
+
+/* ================== MEDIA QUERIES (MEDIUM DEVICES) =============== */
+@media screen and (max-width: 1024px) {
+  .grid__container {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 300px;
+    gap: 3rem 3rem;
+    justify-content: center;
+    grid-template-areas:
+      "Miembro-1"
+      "Competencia-1"
+      "Miembro-2"
+      "Competencia-2"
+      "Miembro-3"
+      "Competencia-3"
+      "Miembro-4"
+      "Competencia-4";
+  }
+  .competencia {
+    width: 100%;
+  }
+
+  .miembro:hover {
+    transform: scale(1.4);
+    cursor: pointer;
+  }
+}
+
+/* ================== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 600px) {
+  .grid__container {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 300px;
+    gap: 3rem 3rem;
+    justify-content: center;
+    grid-template-areas:
+      "Miembro-1"
+      "Competencia-1"
+      "Miembro-2"
+      "Competencia-2"
+      "Miembro-3"
+      "Competencia-3"
+      "Miembro-4"
+      "Competencia-4";
+  }
+  .competencia {
+    width: 100%;
+  }
+
+  .miembro:hover {
+    transform: scale(1.4);
+    cursor: pointer;
+  }
+}

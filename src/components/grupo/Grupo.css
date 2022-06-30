@@ -1,0 +1,161 @@
+#grupo {
+  background: rgb(84, 181, 172);
+  background: linear-gradient(
+    180deg,
+    rgba(84, 181, 172, 1) 0%,
+    rgba(230, 150, 175, 1) 50%,
+    rgba(248, 202, 108, 1) 100%
+  );
+  padding: 4rem;
+  color: white;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+.grupo {
+  /* background: var(--color-bg-variant); */
+  /* border-radius: 0 0 2rem 2rem; */
+  /* border: 1px solid var(--color-primary); */
+  height: fit-content;
+  transition: var(--transition);
+}
+
+
+
+.grupo:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.grupo__head {
+  background: var(--color-primary);
+  padding: 1rem;
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+
+.grupo__container {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 3rem 3rem;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Grupo-1 Grupo-2 Grupo-3"
+    "Grupo-4 Grupo-5 Grupo-6";
+}
+
+.grupo__container > div {
+  background-color: var(--color-bg-variant);
+  border: 1px solid white;
+  border-end-start-radius: 2rem;
+  border-end-end-radius: 2rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+  transition: 0.4s ease-out;
+}
+
+.grupo__container > div:hover {
+  background-color: transparent;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.grupo__container > div > p {
+  text-align: center;
+  margin: 1rem;
+  padding: 0.9rem;
+}
+
+.Grupo-1 {
+  width: 300px;
+  height: 300px;
+  justify-self: center;
+  grid-area: Grupo-1;
+}
+
+.Grupo-2 {
+  width: 300px;
+  height: 300px;
+  justify-self: center;
+  grid-area: Grupo-2;
+}
+
+.Grupo-3 {
+  width: 300px;
+  height: 300px;
+  justify-self: center;
+  grid-area: Grupo-3;
+}
+
+.Grupo-4 {
+  width: 300px;
+  height: 300px;
+  justify-self: center;
+  grid-area: Grupo-4;
+}
+
+.Grupo-5 {
+  width: 300px;
+  height: 340px;
+  justify-self: center;
+  grid-area: Grupo-5;
+}
+
+.Grupo-6 {
+  width: 300px;
+  height: 300px;
+  justify-self: center;
+  grid-area: Grupo-6;
+}
+
+/* ================== MEDIA QUERIES (MEDIUM DEVICES) =============== */
+@media screen and (max-width: 1024px) {
+  .grupo__container {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem 3rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Grupo-1 Grupo-2"
+      "Grupo-3 Grupo-4"
+      "Grupo-5 Grupo-6";
+  }
+
+  .grupo {
+    height: auto;
+    grid-template-columns: 1fr;
+  }
+
+  .titulo_grupo {
+    padding: 2rem;
+    margin-left: 3rem;
+  }
+}
+
+/* ================== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 600px) {
+  .grupo__container {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem 3rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Grupo-1"
+      "Grupo-2"
+      "Grupo-3"
+      "Grupo-4"
+      "Grupo-5"
+      "Grupo-6";
+  }
+
+  .titulo_grupo {
+    padding: 2rem;
+    margin-left: 0;
+  }
+}

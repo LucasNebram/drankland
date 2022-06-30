@@ -1,0 +1,151 @@
+#detalles {
+  background: rgb(84, 181, 172);
+  background: linear-gradient(
+    180deg,
+    rgba(84, 181, 172, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(248, 202, 108, 1) 100%
+  );
+  padding: 4rem 2rem;
+  color: white;
+}
+
+.detalles h2,
+h5 {
+  display: flex;
+  justify-content: center;
+}
+
+.detalles__container {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 5%;
+  margin-top: 2rem;
+}
+
+.detalles__img > img {
+  width: 100%;
+  height: fit-content;
+  border-radius: 2rem;
+  display: grid;
+  place-items: center;
+  box-shadow: 1px 1px 5px 1px rgba(255, 255, 255, 1);
+}
+
+/* ========================== CARDS ===================== */
+
+.detalles__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  color: black;
+}
+
+.detalles__card {
+  background: #efefef;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.detalles__card:hover  {
+  background: transparent;
+  border-color: var(--color-bg);
+  cursor: default;
+}
+
+.detalles__icon {
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.detalles__card h5 {
+  font-size: 0.95rem;
+  color: black;
+}
+
+.detalles__card small {
+  font-size: 0.7rem;
+  color: var(--color-light);
+}
+
+
+.detalles__content p {
+  background-color: #efefef;
+  padding: 1rem;
+  margin: 2rem 0 2.6rem;
+  color: black;
+}
+
+.detalles__content small {
+    padding: 1rem;
+    margin: 2rem 0 2.6rem;
+    color: black;
+  }
+
+a {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--color-white);
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--color-white);
+  color: var(--color-primary-variant);
+  border-color: transparent;
+}
+
+/* ================== MEDIA QUERIES (MEDIUM DEVICES) =============== */
+@media screen and (max-width: 1024px) {
+  .detalles__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .detalles__me {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+
+  .detalles__content {
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+/* ================== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 600px) {
+  .detalles__me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+
+  .detalles__cards {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .detalles__content {
+    text-align: center;
+  }
+
+  .detalles__content p {
+    margin: 1.5rem 0;
+  }
+}
