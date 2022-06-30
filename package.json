@@ -2,6 +2,7 @@
   "name": "react-website-1",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://LucasNebram.github.io/drankland",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
@@ -26,7 +27,7 @@
     "sweetalert2": "^11.4.10",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://github.com/LucasNebram/drankland",
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
