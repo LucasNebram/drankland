@@ -11,7 +11,7 @@ import Footer from "./components/footer/Footer";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
