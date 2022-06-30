@@ -13,7 +13,7 @@ function SeptimasActividades() {
       <div className="container detalles__container">
         <div className="detalles__img__7">
             <img
-              src="/images/carta_boda.png"
+              src="images/carta_boda.png"
               alt="detalles Imge"
             />
         </div>

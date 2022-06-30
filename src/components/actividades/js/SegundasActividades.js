@@ -32,7 +32,7 @@ function SegundasActividades() {
           </p>
         </div>
         <div className="detalles__img__2">
-          <img src="/images/CARTA_CALADRANK.png" alt="detalles Imge" />
+          <img src="images/CARTA_CALADRANK.png" alt="detalles Imge" />
         </div>
       </div>
     </section>

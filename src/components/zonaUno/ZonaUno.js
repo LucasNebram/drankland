@@ -11,7 +11,7 @@ function zonaUno() {
         <div className="about__me">
           <div className="about__me-image">
             <img
-              src="/images/casa2.jpg"
+              src="images/casa2.jpg"
               alt="About Imge"
               width={550}
               height={330}
@@ -56,7 +56,12 @@ function zonaUno() {
             frutales y mucho espacio natural.
           </p>
 
-          <a href="https://www.huertacabaneros.com/" className="btn btn-primary" target={'_blank'} rel="noreferrer">
+          <a
+            href="https://www.huertacabaneros.com/"
+            className="btn btn-primary"
+            target={"_blank"}
+            rel="noreferrer"
+          >
             Enlace a la casa
           </a>
         </div>

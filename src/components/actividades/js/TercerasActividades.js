@@ -11,8 +11,8 @@ function TercerasActividades() {
       </div>
       <div className="container detalles__container">
         <div className="detalles__img__3 grid_imagenes">
-          <img src="/images/photocall.png" alt="detalles Imge" />
-          <img src="/images/photocall.png" alt="detalles Imge" className="imagen_2"/>
+          <img src="images/photocall.png" alt="detalles Imge" />
+          <img src="images/photocall.png" alt="detalles Imge" className="imagen_2"/>
         </div>
         <div className="detalles__content">
           <p>

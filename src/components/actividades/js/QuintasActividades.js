@@ -13,7 +13,7 @@ function QuintasActividades() {
       <div className="container detalles__container">
         <div className="detalles__img__5">
             <img
-              src="/images/CARTA_DISFRACES.png"
+              src="images/CARTA_DISFRACES.png"
               alt="detalles Imge"
             />
         </div>

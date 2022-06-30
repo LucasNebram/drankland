@@ -31,7 +31,7 @@ function SextasActividades() {
           </p>
         </div>
         <div className="detalles__img__6">
-          <img src="/images/CARTA_KARAOKE.png" alt="detalles Imge" />
+          <img src="images/CARTA_KARAOKE.png" alt="detalles Imge" />
         </div>
       </div>
     </section>

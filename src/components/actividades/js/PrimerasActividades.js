@@ -13,7 +13,7 @@ function PrimerasActividades() {
       </div>
       <div className="container detalles__container">
         <div className="detalles__img__1">
-          <img src="/images/carta_olimpiadas_griegas.png" alt="detalles Imge" className="imagen_olimpiadas"/>
+          <img src="images/carta_olimpiadas_griegas.png" alt="detalles Imge" className="imagen_olimpiadas"/>
         </div>
         <div className="detalles__content">
           <div className="detalles__titulo"></div>

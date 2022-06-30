@@ -9,7 +9,7 @@ function DetallesDrank() {
 
       <div className="container detalles__container">
         <div className="detalles__img">
-          <img src="/images/drank-5.jpg" alt="detalles Imge" />
+          <img src="images/drank-5.jpg" alt="detalles Imge" />
         </div>
         <div className="detalles__content">
           <div className="detalles__cards">

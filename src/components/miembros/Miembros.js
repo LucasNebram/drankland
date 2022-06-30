@@ -7,7 +7,7 @@ function Miembros() {
       <div className="container grid__container">
         <div className="miembro foto1">
           <img
-            src="/images/CARTA_MARTINS.png"
+            src="images/CARTA_MARTINS.png"
             alt="as"
             className="miembro_img"
             width={300}
@@ -16,7 +16,7 @@ function Miembros() {
         </div>
         <div className="miembro foto2">
           <img
-            src="/images/CARTA_RABOX.png"
+            src="images/CARTA_RABOX.png"
             alt="as"
             className="miembro_img"
             width={300}
@@ -25,7 +25,7 @@ function Miembros() {
         </div>
         <div className="miembro foto3">
           <img
-            src="/images/CARTA_JOSEFLOJA.png"
+            src="images/CARTA_JOSEFLOJA.png"
             alt="as"
             className="miembro_img"
             width={300}
@@ -34,7 +34,7 @@ function Miembros() {
         </div>
         <div className="miembro foto4">
           <img
-            src="/images/CARTA_PABLO.png"
+            src="images/CARTA_PABLO.png"
             alt="as"
             className="miembro_img"
             width={300}
