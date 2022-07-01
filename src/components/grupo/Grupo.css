@@ -93,14 +93,14 @@
 
 .Grupo-4 {
   width: 300px;
-  height: 300px;
+  height: 340px;
   justify-self: center;
   grid-area: Grupo-4;
 }
 
 .Grupo-5 {
   width: 300px;
-  height: 340px;
+  height: 300px;
   justify-self: center;
   grid-area: Grupo-5;
 }

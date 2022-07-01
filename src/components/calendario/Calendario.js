@@ -10,28 +10,28 @@ export default function Calendario() {
       id: 1,
       comida: "Barbacoa",
       cena: "Roscas / Pizzas",
-      grupoComida: "Grupo 5 (Aguacate - Jose - Martins - Raul)",
-      grupoCena: "Grupo 1 (Cristina - Balas - Victor)",
+      grupoComida: "Grupo 5 (Jose - Martins - Raul)",
+      grupoCena: "Grupo 1 (Aguacate - Balas - Victor BR)",
     },
     {
       id: 2,
       comida: "Carbonara",
       cena: "Paninis",
       grupoComida: "Grupo 6 (Marina - Raboso - Uganda)",
-      grupoCena: "Grupo 4 (Tana - Belen - Ines)",
+      grupoCena: "Grupo 4 (Tana - Belen - Ines - Sarinxi)",
     },
     {
       id: 3,
       comida: "Paella",
       cena: "Hamburguesa",
-      grupoComida: "Grupo 5 (Aguacate - Jose - Martins - Raul)",
+      grupoComida: "Grupo 5 (Jose - Martins - Raul)",
       grupoCena: "Grupo 2 (Pablo - Maria - Andrea)",
     },
     {
       id: 4,
       comida: "Burros",
       cena: "Sandwiches",
-      grupoComida: "Grupo 4 (Tana - Belen - Ines)",
+      grupoComida: "Grupo 4 (Tana - Belen - Ines - Sarinxi)",
       grupoCena: "Grupo 3 (Rodrigo - Pernia - Ainara)",
     },
     {
@@ -46,7 +46,7 @@ export default function Calendario() {
       comida: "Macarrones",
       cena: "Perritos",
       grupoComida: "Grupo 2 (Pablo - Maria - Andrea)",
-      grupoCena: "Grupo 1 (Cristina - Balas - Victor)",
+      grupoCena: "Grupo 1 (Aguacate - Balas - Victor BR)",
     },
   ];
 

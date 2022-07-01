@@ -11,7 +11,7 @@ function Grupo() {
           <div className="grupo__head">
             <h2>Grupo 1</h2>
           </div>
-          <p>Cristina</p>
+          <p>Aguacate</p>
           <p>Balas</p>
           <p>Victor BR</p>
         </div>
@@ -38,12 +38,12 @@ function Grupo() {
           <p>Tana</p>
           <p>Belen</p>
           <p>Ines</p>
+          <p>Sarinxi</p>
         </div>
         <div className="Grupo-5">
           <div className="grupo__head">
             <h2>Grupo 5</h2>
           </div>
-          <p>Aguacate</p>
           <p>Jose</p>
           <p>Martins</p>
           <p>Raul</p>
