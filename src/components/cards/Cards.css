@@ -1,6 +1,6 @@
 .cards {
   padding: 4rem;
-  background: rgb(84, 181, 172);;
+  background: rgb(84, 181, 172);
 }
 
 h1 {
@@ -112,11 +112,5 @@ h1 {
 @media only screen and (min-width: 1024px) {
   .cards__items {
     display: flex;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .cards__item {
-    margin-bottom: 2rem;
   }
 }
